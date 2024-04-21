@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Akaya Telivigala", cursive;
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.05), #1f8ac0),
+    url(pictures/main.jpg);
+  background-size: cover;
+  background-position: top;
+  height: 100vh;
+  color: #efc9af;
+}
+.findmore-title {
+  margin-top: 100px;
+  color: #efc9af;
+  transition: all 1s ease-in-out;
+}
+.findmore-title h1 {
+  font-size: 35px;
+  line-height: 10px;
+  text-shadow: 3px 3px 7px rgb(14, 13, 13);
+}
+.findmore-title h2 {
+  font-size: 20px;
+  text-shadow: 3px 3px 7px rgb(14, 13, 13);
+}
+form {
+  margin-top: 50px;
+  transition: all 1s ease-in-out;
+}
+.form-control {
+  width: 600px;
+  background: #efc9af;
+  border: 0.5px solid #efc9af;
+  outline: none;
+  color: #104c91;
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-family: "Akaya Telivigala", cursive;
+  opacity: 0.9;
+}
+input {
+  height: 40px;
+  border-radius: 5px;
+}
+textarea {
+  height: 120px;
+  border-radius: 5px;
+}
+form .submit {
+  background: transparent;
+  color: #efc9af;
+  font-size: 20px;
+  letter-spacing: 2px;
+  height: 50px;
+  width: 175px;
+  cursor: pointer;
+  opacity: 1;
+}
+form .submit:hover {
+  background: #efc9af;
+  color: #104c91;
+  transition: 0.5s;
+}
+form a {
+  width: 150px;
+  font-size: 20px;
+  height: 24px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 10px;
+  padding: 12px 0;
+  color: #efc9af;
+  border: 0.5px solid #efc9af;
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  transition: color 0.5s;
+  letter-spacing: 2px;
+}
+form a:hover {
+  background: #efc9af;
+  color: #104c91;
+  transition: 0.5s;
+}
